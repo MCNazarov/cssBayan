@@ -17,14 +17,16 @@ h4 {
 }
 
 
-div.content ul li ul {
-    display: none;   
+div.content ul ul {
+    display: none;      
 }
 
-div.content ul li:hover > ul {
+div.content ul:hover > ul {
     display:inherit;
 }
+
 
 ul {
     list-style: none;
 }
+
