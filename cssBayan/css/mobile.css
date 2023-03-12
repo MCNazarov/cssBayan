@@ -15,3 +15,17 @@ h4 {
     font-family: verdana;
     font-size: 10px;
 }
+
+
+div.content ul ul {
+    display: none;      
+}
+
+div.content ul:hover > ul {
+    display:inherit;
+}
+
+
+ul {
+    list-style: none;
+}
